@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+nav {
+    background-color: black;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: lavender;
+}
+
+/* Home Design */
+.home {
+    padding: 100px 20px;
+    background-color: lavender;
+    min-height: 350px;
+}
+
+.home h1 {
+    color: purple;
+    font-size: 40px;
+}
+
+.home h2 {
+    color: #333;
+}
+
+.home p {
+    font-size: 18px;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Other Sections */
+section {
+    
+    min-height: 100vh;
+    padding: 80px 20px;
+    box-sizing: border-box;
+    
+}
+section:target{
+    display: block;
+}
+
+.about {
+    background-color: white;
+}
+
+.education {
+    background-color: lightgray;
+}
+
+.skills {
+    background-color: lavender;
+}
+
+.projects {
+    background-color: white;
+}
+
+.contact {
+    background-color: lightgray;
+}
+
+h1 {
+    color: purple;
+}
+section {
+    display: none;
+    min-height:100vh;
+    padding: 80px 20px;
+    box-sizing: border-box;
+}
+section:target{
+    display: block;
+}
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid purple;
+    margin-bottom: 20px;
+}
