@@ -20,7 +20,7 @@ nav a:hover {
     color: lavender;
 }
 
-/* Home Design */
+
 .home {
     padding: 100px 20px;
     background-color: lavender;
@@ -48,7 +48,7 @@ button {
     border-radius: 5px;
 }
 
-/* Other Sections */
+
 section {
     
     min-height: 100vh;
